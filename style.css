@@ -20,7 +20,7 @@ nav ul li a {
   font-weight: 500;
   letter-spacing: 0.025em;
   text-decoration: none;
-  color: var(--c, #BBC1E1);
+  color: var(--c, #bbc1e1);
   transition: color 0.3s ease;
 }
 nav ul li a:hover {
@@ -40,16 +40,16 @@ section > span {
 }
 section > div > span {
   display: table;
-  background: #1A1E32;
+  background: #1a1e32;
   padding: 12px;
   font-size: 14px;
   border-radius: 5px;
-  color: #646B8C;
+  color: #646b8c;
   margin-top: 20px;
 }
 section > div > span a {
   text-decoration: none;
-  color: var(--c, #A6ACCD);
+  color: var(--c, #a6accd);
   transition: color 0.3s ease;
 }
 section > div > span a:hover {
@@ -58,26 +58,27 @@ section > div > span a:hover {
 
 pre code {
   font-family: "Fira Mono";
-  color: #BBC1E1;
+  color: #bbc1e1;
   line-height: 1.4;
   font-size: 12px;
 }
 pre code .token.function {
-  color: #5C86FF;
+  color: #5c86ff;
 }
 pre code .token.string {
-  color: #CB7DD0;
+  color: #cb7dd0;
 }
 pre code .token.parameter {
-  color: #C4DDB2;
+  color: #c4ddb2;
 }
 
 #section-1,
 #section-3 {
-  background: #0B0D19;
+  background: #0b0d19;
 }
 
-#section-2 {
+#section-2,
+#section-4 {
   background: #131524;
 }
 
